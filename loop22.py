@@ -1,0 +1,9 @@
+n=int(input("enter no"))
+i=1
+f=1
+sum=0
+while i<=n:
+	f=f*n
+	n=n-1
+	sum=sum+1
+	print(sum,"!+",end=" ")
